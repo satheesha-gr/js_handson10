@@ -1,0 +1,11 @@
+.parent {
+    display: flex;
+}
+    
+.box1 {
+    width: 200px;
+    height: 200px;
+    border: 10px black;
+    margin: 5px;
+    background-color: rgb(102, 0, 255); 
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_Handson10</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <h1>DOM Handson</h1>
+    <p><b>Q1</b> Write the code to access element which is having id as "text"</p>
+    <div id="text">Hello World</div>
+    <hr/>
+    <p><b>Q2</b>Write the code to access element which is having tag as "h1"</p>
+    <h1>Welcome to my Web Page</h1>
+    <hr/>
+    <p><b>Q3</b>Write the code to access element which is having class as "box"</p>
+    <div class="box">Hello, This is my first Javascript</div>
+    <hr/>
+    <p><b>Q4</b>Change the heading from "Hello" to "Hello World" using DOM functions</p>
+    <h1>Hello </h1>
+    <hr/>
+    <p><b>Q5</b>Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"</p>
+    <button onclick="callme()">Replace Text</button>
+    <h1>Hello World</h1>
+    <hr/>
+    <p><b>Q6</b>Add one style attribute and give text color as red and id attribute and give the id value as "heading" in the above given h1 tag using DOM functions</p>
+    <h1 id="heading" >Hello </h1>
+    <hr/>
+    <p><b>Q7</b>Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.</p>
+    <div class="parent">
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+    </div>
+    <button>Change direction</button>
+    <hr/>
+    <p><b>Q8</b>Whats the difference between window vs document?</p>
+    <h4>Window</h4>
+    - It is the root level element in any web page. <br/>
+    - All the global variables are defined on the window object. <br/>
+    - For example, alert(), confirm() are methods defined on the window object.
+    <br/>
+    <h4>Document</h4>
+    - It is the direct child of the window object. <br/>
+    - It is known as Document Object Model (DOM). <br/>
+    - You can access it via window.document or document. <br/>
+    - Document Object has many useful methods defined on it. For example,
+    document.getElementById(), document.getElementByTagName(),
+    document.createElement(), document.querySelector() and many more. <br/>
+    <hr/>
+    <p><b>Q9</b>Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second</p>
+    <h2 class="timely"></h2>
+    <hr/>
+    <p><b>Q10</b>Make :- Guess My No. Game</p>
+    <a href="https://satheesha-gr.github.io/guess_the_no/" target="_blank">Click Here to Play</a>
+    <script src="./script.js"></script>
+</body>
+</html>
